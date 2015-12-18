@@ -14,6 +14,8 @@
 		EBDD1A6E1C22DC700025F914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDD1A6C1C22DC700025F914 /* LaunchScreen.storyboard */; };
 		EBDD1A791C22DC700025F914 /* iOS_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD1A781C22DC700025F914 /* iOS_ProjectTests.swift */; };
 		EBDD1A841C22DC700025F914 /* iOS_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD1A831C22DC700025F914 /* iOS_ProjectUITests.swift */; };
+		EBDD1A921C23D57A0025F914 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD1A911C23D57A0025F914 /* RegisterPageViewController.swift */; };
+		EBDD1A941C23DCEA0025F914 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD1A931C23DCEA0025F914 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EBDD1A7F1C22DC700025F914 /* iOS_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDD1A831C22DC700025F914 /* iOS_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ProjectUITests.swift; sourceTree = "<group>"; };
 		EBDD1A851C22DC700025F914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDD1A911C23D57A0025F914 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		EBDD1A931C23DCEA0025F914 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				EBDD1A6A1C22DC700025F914 /* Assets.xcassets */,
 				EBDD1A6C1C22DC700025F914 /* LaunchScreen.storyboard */,
 				EBDD1A6F1C22DC700025F914 /* Info.plist */,
+				EBDD1A911C23D57A0025F914 /* RegisterPageViewController.swift */,
+				EBDD1A931C23DCEA0025F914 /* LoginViewController.swift */,
 			);
 			path = iOS_Project;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBDD1A941C23DCEA0025F914 /* LoginViewController.swift in Sources */,
 				EBDD1A661C22DC700025F914 /* ViewController.swift in Sources */,
 				EBDD1A641C22DC700025F914 /* AppDelegate.swift in Sources */,
+				EBDD1A921C23D57A0025F914 /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
